@@ -14,10 +14,11 @@
     "parentRowSpace": 10,
     "type": "CONTAINER_WIDGET",
     "hideCard": false,
+    "shouldScrollContents": true,
     "animateLoading": true,
     "parentColumnSpace": 18.0625,
     "dynamicTriggerPathList": [],
-    "leftColumn": 34,
+    "leftColumn": 32,
     "dynamicBindingPathList": [{"key": "isVisible"}],
     "children": [{
         "boxShadow": "none",
@@ -50,8 +51,8 @@
     "key": "6bzu8mpizb",
     "labelTextSize": "0.875rem",
     "backgroundColor": "#FFFFFF",
-    "rightColumn": 63,
-    "dynamicHeight": "FIXED",
+    "rightColumn": 61,
+    "dynamicHeight": "AUTO_HEIGHT",
     "widgetId": "0gvcw6l693",
     "containerStyle": "card",
     "isVisible": "{{orderList.selectedItem.work_id>0}}",
@@ -59,9 +60,9 @@
     "parentId": "0",
     "renderMode": "CANVAS",
     "isLoading": false,
-    "originalTopRow": 106,
+    "originalTopRow": 9,
     "borderRadius": "8px",
     "maxDynamicHeight": 9000,
-    "originalBottomRow": 193,
-    "minDynamicHeight": 4
+    "originalBottomRow": 96,
+    "minDynamicHeight": 10
 }

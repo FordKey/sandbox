@@ -11,6 +11,7 @@
     "parentRowSpace": 10,
     "type": "CONTAINER_WIDGET",
     "hideCard": false,
+    "shouldScrollContents": true,
     "animateLoading": true,
     "parentColumnSpace": 18.0625,
     "dynamicTriggerPathList": [],
@@ -47,8 +48,8 @@
     "key": "6bzu8mpizb",
     "labelTextSize": "0.875rem",
     "backgroundColor": "#FFFFFF",
-    "rightColumn": 33,
-    "dynamicHeight": "FIXED",
+    "rightColumn": 32,
+    "dynamicHeight": "AUTO_HEIGHT",
     "widgetId": "lnw09dmob4",
     "containerStyle": "card",
     "isVisible": true,
@@ -56,9 +57,9 @@
     "parentId": "0",
     "renderMode": "CANVAS",
     "isLoading": false,
-    "originalTopRow": 106,
+    "originalTopRow": 9,
     "borderRadius": "8px",
     "maxDynamicHeight": 9000,
-    "originalBottomRow": 193,
-    "minDynamicHeight": 4
+    "originalBottomRow": 96,
+    "minDynamicHeight": 10
 }
