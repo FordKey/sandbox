@@ -1,0 +1,64 @@
+{
+  "unpublishedPage": {
+    "name": "Submit new order",
+    "slug": "submit-new-order",
+    "layouts": [
+      {
+        "viewMode": false,
+        "dsl": {
+          "widgetName": "MainContainer",
+          "backgroundColor": "none",
+          "rightColumn": 1160,
+          "snapColumns": 64,
+          "detachFromLayout": true,
+          "widgetId": "0",
+          "topRow": 0,
+          "bottomRow": 780,
+          "containerStyle": "none",
+          "snapRows": 66,
+          "parentRowSpace": 1,
+          "type": "CANVAS_WIDGET",
+          "canExtend": true,
+          "version": 89,
+          "minHeight": 1830,
+          "useAutoLayout": false,
+          "parentColumnSpace": 1,
+          "dynamicBindingPathList": [],
+          "leftColumn": 0,
+          "positioning": "fixed"
+        },
+        "layoutOnLoadActions": [
+          [
+            {
+              "id": "Submit new order_select_category",
+              "name": "select_category",
+              "confirmBeforeExecute": false,
+              "pluginType": "DB",
+              "jsonPathKeys": [],
+              "timeoutInMillisecond": 10000
+            },
+            {
+              "id": "Submit new order_select_equipment_db",
+              "name": "select_equipment_db",
+              "confirmBeforeExecute": false,
+              "pluginType": "DB",
+              "jsonPathKeys": [],
+              "timeoutInMillisecond": 10000
+            }
+          ]
+        ],
+        "layoutOnLoadActionErrors": [],
+        "validOnPageLoadActions": true,
+        "id": "Submit new order",
+        "deleted": false,
+        "policies": [],
+        "userPermissions": []
+      }
+    ],
+    "userPermissions": [],
+    "policies": [],
+    "isHidden": false
+  },
+  "deleted": false,
+  "gitSyncId": "6672f18a3aa2e8400abb1217_b3ec549e-32a4-440a-8fd3-adcae67ddf35"
+}

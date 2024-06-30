@@ -1,0 +1,58 @@
+{
+  "unpublishedPage": {
+    "name": "Home Page",
+    "slug": "home-page",
+    "layouts": [
+      {
+        "viewMode": false,
+        "dsl": {
+          "mobileBottomRow": 1738,
+          "widgetName": "MainContainer",
+          "backgroundColor": "none",
+          "rightColumn": 1160,
+          "snapColumns": 64,
+          "detachFromLayout": true,
+          "widgetId": "0",
+          "topRow": 0,
+          "bottomRow": 980,
+          "containerStyle": "none",
+          "snapRows": 66,
+          "parentRowSpace": 1,
+          "type": "CANVAS_WIDGET",
+          "canExtend": true,
+          "version": 89,
+          "minHeight": 930,
+          "mobileTopRow": 0,
+          "useAutoLayout": false,
+          "parentColumnSpace": 1,
+          "dynamicBindingPathList": [],
+          "leftColumn": 0,
+          "positioning": "fixed"
+        },
+        "layoutOnLoadActions": [
+          [
+            {
+              "id": "Home Page_getWorkOrders",
+              "name": "getWorkOrders",
+              "confirmBeforeExecute": false,
+              "pluginType": "DB",
+              "jsonPathKeys": [],
+              "timeoutInMillisecond": 10000
+            }
+          ]
+        ],
+        "layoutOnLoadActionErrors": [],
+        "validOnPageLoadActions": true,
+        "id": "Home Page",
+        "deleted": false,
+        "policies": [],
+        "userPermissions": []
+      }
+    ],
+    "userPermissions": [],
+    "policies": [],
+    "isHidden": false
+  },
+  "deleted": false,
+  "gitSyncId": "6672f18a3aa2e8400abb1217_07d59b1b-e389-43e3-9e31-c2eae3384539"
+}
