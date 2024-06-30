@@ -20,10 +20,7 @@
     "parentColumnSpace": 23.8125,
     "dynamicTriggerPathList": [],
     "leftColumn": 0,
-    "dynamicBindingPathList": [
-        {"key": "borderRadius"},
-        {"key": "boxShadow"}
-    ],
+    "dynamicBindingPathList": [{"key": "boxShadow"}],
     "children": [{
         "widgetName": "Canvas1",
         "displayName": "Canvas",
@@ -52,7 +49,7 @@
         "responsiveBehavior": "fill",
         "flexLayers": []
     }],
-    "borderWidth": "1",
+    "borderWidth": "0",
     "key": "wa7a1coj08",
     "backgroundColor": "#FFFFFF",
     "isDeprecated": false,
@@ -68,7 +65,7 @@
     "isLoading": false,
     "responsiveBehavior": "fill",
     "originalTopRow": 0,
-    "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+    "borderRadius": "0px",
     "maxDynamicHeight": 9000,
     "originalBottomRow": 64,
     "minDynamicHeight": 10
